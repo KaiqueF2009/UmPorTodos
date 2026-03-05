@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'UmPorTodos';
+    src: url(fonts/freshman/Freshman.ttf) format('truetype');
+    
+}
+body{
+    background: linear-gradient(to right, rgb(109, 168, 223), rgb(204, 204, 255));
+}
+.pages{
+    font-family: 'UmPorTodos';
+    margin: auto;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border: 3px, solid, black;
+    width: 20%;
+}
+.titulo{
+    font-family: 'UmporTodos';
+    margin: auto;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    width: 25%;
+    height: 30%;
+    border: 5px, solid, black;
+}
+.login{
+ margin: auto;
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ background-color: white;
+ width: 30%;
+ height: 20%;
+ border: 2px, black, solid;
+}
+.img{
+    border: 3px, solid, black;
+    width: 20%;
+    height: 20%;
+    margin: auto;
+    text-align: center;
+    margin-left: 40%;
+}
+.cliente{
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    border: 2px, black, outset;
+    width: 25%;
+}
+.lista{
+    margin: auto;
+    text-align: center;
+    color: black;
+    width: 5%;
+    background-color: rgb(235, 229, 255);
+    margin-top: 5%;
+    border: 2px, black, solid;
+    
+}
